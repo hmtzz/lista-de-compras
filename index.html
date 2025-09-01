@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main> 
+        <!-- adiciona imagem-->
+        <img src="sos.jpeg" alt="icone da loja" class="logo-loja"/>
+
+    </main>
+
+    <h1>Produtos Disponíveis na Loja</h1>
+        <ul id="produtosLista"></ul> 
+
+
+    <h1>🛒 Lista de Compras</h1>
+    <input type="text" id="itemInput" placeholder="Digite um item">
+    <button onclick="adicionarItem()">Adicionar</button>
+
+    <ul id="lista"></ul>
+
+    
+    <h1>📅 Data atual</h1>
+    <p id="dataAtual"></p>
+
+    <h1>🚚 Entrega da compra</h1>
+    <button onclick="calcularEntrega()">Ver data de entrega</button>
+    <p id="dataEntrega"></p>
+
+
+
+    <script src="script/adicionarItem.js"></script>
+    <script src="script/mostrarDiaSemana.js"></script>
+    <script src="script/entrega.js"></script>
+    <script src="script/listaCompras.js"></script>
+</body>
+</html>
